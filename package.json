@@ -1,0 +1,15 @@
+{
+  "name": "multiverse",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "christinaroise <christina@roise.no>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "yarn workspace web-verse",
+    "lint-fix": "npx eslint . --fix"
+  }
+}
