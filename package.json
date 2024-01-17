@@ -1,0 +1,19 @@
+{
+  "name": "multiverse",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "studio": "yarn workspace studio-verse",
+    "style": "yarn workspace style-verse",
+    "web": "yarn workspace web-verse",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
