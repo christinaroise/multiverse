@@ -1,0 +1,29 @@
+:root {
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-s: 12px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    :root {
+        --spacing-s: 14px;
+        --spacing-m: 20px;
+        --spacing-l: 28px;
+        --spacing-xl: 40px;
+        --spacing-xxl: 52px;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --spacing-s: 16px;
+        --spacing-m: 24px;
+        --spacing-l: 32px;
+        --spacing-xl: 48px;
+        --spacing-xxl: 56px;
+    }
+}
