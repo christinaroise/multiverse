@@ -17,7 +17,7 @@ export default defineConfig({
     presentationTool({
       previewUrl: {
         draftMode: {
-          enable: 'https://multiverse-web-verse.vercel.app/api/draft',
+          enable: 'https://multiverse-web-verse.vercel.app/preview',
         },
       },
     }),
