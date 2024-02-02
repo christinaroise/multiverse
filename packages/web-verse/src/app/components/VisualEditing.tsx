@@ -60,7 +60,7 @@ export default function VisualEditing() {
   useLiveMode({ client: stegaClient });
   useEffect(() => {
     // If not an iframe or a Vercel Preview deployment, turn off Draft Mode
-    if (process.env.NEXT_PUBLIC_VERCEL_ENV !== "preview" && window === parent) {
+    if (process.env.VERCEL_ENV !== "preview" && window === parent) {
       location.href = "/api/disable-draft";
     }
   }, []);
